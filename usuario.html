@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+        <meta name="keywords" content=" ">
+        <meta name="description" content="Sitio de FINDE ">
+        <meta name="author" content="FINDE DEVELOP">
+    
+        <link rel="shortcut icon" type="image/x-icon" href="./RECURSOS/logo.png">
+
+        <title>Usuario | FINDE</title>
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="./CSS/general.css">
+        <link rel="stylesheet" href="./CSS/comun.css">
+
+        <link rel="stylesheet" href="./CSS/inicio.css">
+        <link rel="stylesheet" href="./CSS/inicioResp.css">
+
+        <link rel="stylesheet" href="./CSS/user.css">
+        
+        <!-- FONTS -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   
+    
+    </head>
+<body class="anim-apear trans">
+    
+<!-- NAV -->
+<nav class="formato_containers filter-container flex-row-patern">
+    <div class="flex-row-patern filter-cont ">
+        <div class="flex-row-patern filters ">
+            <figure class="logo-fiter-cont flex-row-patern">
+                <img  src="./RECURSOS/Finde - Logos (2).png" alt="Logo Finde">
+                <h1>FINDE</h1>
+            </figure>
+            <div class="search-cont flex-row-patern mobilNO">
+                <input type="text" name="search" id="busqueda" placeholder="Buscar..."> 
+                <i class='bx bx-search icon-ser'></i>
+            </div>
+        </div>
+        <div class="flex-row-patern acount-cont">
+            <button href="" class="mobilYES btn-acount btn-mobile flex-row-patern trans" id="open-nav"><i class='bx bx-menu'></i></button>
+            <button href="" class="mobilYES btn-acount btn-mobile flex-row-patern trans" id="close-nav"><i class='bx bx-x'></i></button>
+            <a href="index.html" class="btn-acount flex-row-patern trans mobilNO"><i class='bx bxs-home'></i></a>
+            <a href="index.html#categorias" class="btn-acount flex-row-patern trans mobilNO"><i class='bx bxs-category'></i></a>
+            <a href="nosotros.html" class="btn-acount flex-row-patern trans mobilNO"><i class='bx bxs-map'></i></a>
+            <a href="login.html" class="btn-acount flex-row-patern trans mobilNO" id="logout"><i class='bx bxs-exit'></i></a>
+            <a href="usuario.html" class="btn-acount flex-row-patern trans mobilNO"><i class='bx bxs-user'></i></a>
+        </div>
+    </div>
+</nav>
+
+<nav class="menumovil trans" id="menu-slide">
+    <div class="flex-row-patern acount-cont acount-cont2">
+        <a href="index.html" class="btn-acount btn-acount2 flex-row-patern trans "><i class='bx bxs-home'></i></a>
+        <a href="nosotros.html" class="btn-acount btn-acount2 flex-row-patern trans "><i class='bx bxs-map'></i></a>
+        <a href="login.html" class="btn-acount btn-acount2 flex-row-patern trans "><i class='bx bxs-exit'></i></a>
+        <a href="usuario.html" class="btn-acount btn-acount2 flex-row-patern trans "><i class='bx bxs-user'></i></a>
+    </div>
+</nav>
+<!-- /NAV  -->
+
+
+<!-- CONTENEDOR  -->
+<section class="flex-row-patern user-container">
+    <!-- MENU USUARIO  -->
+    <aside class="flex-row-patern user-sections">
+        <a href="#" class="flex-row-patern user-sec user-active btn-action trans">
+            <i class='bx bxs-user icon-user-sections'></i> 
+            <p class="title-user-section">Información</p>
+        </a>
+        <a href="#" class="flex-row-patern user-sec btn-action trans">
+            <i class='bx bxs-bell icon-user-sections'></i> 
+            <p class="title-user-section">Notificaciones</p>
+        </a>
+        <a href="#" class="flex-row-patern user-sec btn-action trans">
+            <i class='bx bxs-wallet icon-user-sections'></i>
+            <p class="title-user-section">Planes y Suscripciones</p>
+        </a>
+        <a href="#" class="flex-row-patern user-sec btn-action trans">
+            <i class='bx bxs-shield icon-user-sections'></i> 
+            <p class="title-user-section">Seguridad y Contraseñas</p>
+        </a>
+    </aside>
+    <!-- /MENU USUARIO  -->
+
+    <!-- FORMULARIOS  -->
+    <article class="user-forms">
+        <!-- FORM 01  -->
+        <div class="usform mostra-form" id="USF-01">
+             <!-- IMAGEN FORM 01  -->
+                <div class="general-form-user user-image-form">
+                    <form class="flex-row-patern" style="width: 100%;">
+                        <div class="flex-row-patern div-image-form img-cont-user">
+                            <figure class="figure-img-user">
+                                <img src="./RECURSOS/c434d8c366517ca20425bdc9ad8a32de.jpg" alt="User picture" class="">
+                            </figure>
+                            <div class="">
+                                <p class="text-img-user">Sube una nueva foto</p>
+                                <small class="text-img-user">.jpg .png</small>
+                            </div>
+                        </div>
+                        <div class="flex-row-patern div-image-form">
+                            <div class="link-g btn btn-form light-btn flex-row-patern btn-sec-form trans" id="image-user-btn"><i class='bx bx-upload'></i></div>
+                            <input type="file" id="UserPicture" name="UserPicture" hidden>
+                            <button type="submit" class="link-g btn btn-form light-btn trans">Guardar</button>
+                        </div>
+                    </form>
+                </div>
+            <!-- /IMAGEN FORM 01  -->
+
+            <!-- DATOS FORM 01  -->
+                <div class="general-form-user user-information-form">
+                    <form class="" style="width: 100%;">
+                        <h5 class="text-img-user">Cambia tu información aquí</h5>
+                        <br>
+                        <div class="form-cool formUser-doble">
+                            <label for="UserFullName" class="flex-row-patern campoDoble user-form-labels">Nombre Completo
+                                <input type="text" id="UserFullName" name="UserFullName" placeholder="Nombre Completo" class="campos" required>
+                            </label>
+                            <label for="UserEmail" class="flex-row-patern campoDoble user-form-labels">Correo electrónico
+                                <input type="email" id="UserEmail" name="UserEmail" placeholder="Correo electrónico" class="campos" required>
+                            </label>
+                        </div>
+                        <div class="form-cool formUser-doble">
+                            <label for="UserSex" class="flex-row-patern campoDoble user-form-labels">Genero
+                                <input type="text" id="UserSex" name="UserSex" placeholder="Genero" class="campos" required>
+                            </label>
+                            <label for="UserName" class="flex-row-patern campoDoble user-form-labels">Nombre de Usuario
+                                <input type="text" id="UserName" name="UserName" placeholder="Nombre de Usuario" class="campos" required>
+                            </label>
+                        </div>
+                        <label for="UserAddress" class="flex-row-patern user-form-labels">Dirección
+                            <input type="text" id="UserAddress" name="UserAddress" placeholder="Dirección" class="campos" required>
+                        </label>
+
+                        <div class="form-cool formUser-doble">
+                            <label for="UserCity" class="flex-row-patern campoDoble user-form-labels">Ciudad
+                                <input type="text" id="UserCity" name="UserCity" placeholder="Ciudad" class="campos" required>
+                            </label>
+                            <label for="UserCode" class="flex-row-patern campoDoble user-form-labels">Código Postal
+                                <input type="number" id="UserCode" name="UserCode" placeholder="Código Postal" class="campos" required>
+                            </label>
+                        </div>
+                        <button type="submit" id="sign-btn2" class="link-g btn btn-form light-btn">Actualizar</button>
+                    </form> 
+                </div>
+            <!-- /DATOS FORM 01  -->
+        </div>
+        <!-- /FORM 01  -->
+
+        <!-- FORM 02  -->
+        <div class="usform ocultar-form trans" id="USF-02">
+            <div class="user-information-form">
+                    <div class="general-form-user">
+                        <h5 class="text-img-user">Notificaciones</h5>
+                        <br>
+                        <p class="text-img-user">Personaliza tu experiencia eligiendo como te llegan 
+                            las notificaciones de nuestro blog, 
+                            promociones  y eventos especiales.
+                        </p>
+                    </div>
+                    
+                    <div class="general-form-user"> 
+                        <form class="" style="width: 100%;">
+                            <table>
+                                  <tr class="table-title">
+                                    <th ></th>
+                                    <th >Blog</th>
+                                    <th >Promociones</th>
+                                    <th >Eventos</th>
+                                  </tr>
+                                
+                                  <tr>
+                                    <td>Correo electrónico</td>
+                                    <td>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>Mensajes SMS</td>
+                                    <td>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>Notificaciones PUSH</td>
+                                    <td class="centertd">
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                    <td class="centertd">
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                    <td class="centertd">
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>WhatsApp</td>
+                                    <td>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="checkbox-container">
+                                            <input class="checkbox-input" type="checkbox" name="op-correo-blog">
+                                            <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                        </div>
+                                    </td>
+                                  </tr>
+                                
+                            </table>
+
+                                         
+                            <button type="submit" id="sign-btn2" class="link-g btn btn-form light-btn">Guardar</button>
+                        </form> 
+                    </div>
+            </div>
+        </div>
+        <!-- /FORM 02  -->
+
+        <!-- FORM 03  -->
+        <div class="usform ocultar-form trans" id="USF-03">
+            <div class="user-information-form">
+                <div class="general-form-user">
+                    <h5 class="text-img-user">Planes y Suscripciones</h5>
+                    <br>
+                    <p class="text-img-user">Personaliza tu experiencia eligiendo el plan 
+                        que mejor se adapte a tus necesidades.
+                    </p>
+                </div>
+            </div>
+
+            <div class="general-form-user">
+                <form class="" style="width: 100%;">
+
+                    <div class="flex-row-patern user-suscripcion-element">
+                        <div class="flex-row-patern suscripcion-element-title">
+                            <p class="text-img-user">Gratuita</p>
+                            <span class="activo-suscription">Activa</span>
+                        </div>
+                        <div class="flex-row-patern suscripcion-element-btn">
+                                <div class="checkbox-container">
+                                    <input class="checkbox-input" type="radio" name="tipoSsucription" value="Gratuita">
+                                    <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-row-patern user-suscripcion-element">
+                        <div class="flex-row-patern suscripcion-element-title">
+                            <p class="text-img-user">Mensual</p>
+                            <span class="activo-suscription ocultar-form">Activa</span>
+                        </div>
+                        <div class="flex-row-patern suscripcion-element-btn">
+                                <div class="checkbox-container">
+                                    <input class="checkbox-input" type="radio" name="tipoSsucription" value="Mensual">
+                                    <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-row-patern user-suscripcion-element">
+                        <div class="flex-row-patern suscripcion-element-title">
+                            <p class="text-img-user">Anual</p>
+                            <span class="activo-suscription ocultar-form">Activa</span>
+                        </div>
+                        <div class="flex-row-patern suscripcion-element-btn">
+                                <div class="checkbox-container">
+                                    <input class="checkbox-input" type="radio" name="tipoSsucription" value="Anual">
+                                    <span class="checkbox-span checkedS trans"><i class='bx bx-check'></i></span>
+                                </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="sign-btn2" class="link-g btn btn-form light-btn">Aplicar</button>
+                </form>
+            </div>
+        </div>
+        <!-- /FORM 03  -->
+
+        <!-- FORM 04  -->
+        <div class="usform ocultar-form trans" id="USF-04">
+            <div class="user-information-form">
+                <div class="general-form-user">
+                    <h5 class="text-img-user">Seguridad y Contraseñas</h5>
+                    <br>
+                    <p class="text-img-user">Recupera tu contraseña o cambiala.
+                    </p>
+                </div>
+            </div>
+
+            <div class="general-form-user">
+                <form class="" style="width: 100%;">
+                    <h5 class="text-img-user">Cambiar contraseña</h5>
+                    <br>
+                    <div class="form-cool formUser-doble">
+                        <label for="UserNewPassword" class="flex-row-patern campoDoble user-form-labels">Contraseña nueva
+                            <input type="text" id="UserNewPassword" name="UserNewPassword" placeholder="Contraseña nueva" class="campos" required>
+                        </label>
+                        <label for="UserNewPasswordValidate" class="flex-row-patern campoDoble user-form-labels">Verifica la contraseña
+                            <input type="text" id="UserNewPasswordValidate" name="UserNewPasswordValidate" placeholder="Verifica la contraseña" class="campos" required>
+                        </label>
+                    </div>
+                    <button type="submit" id="sign-btn2" class="link-g btn btn-form light-btn">Actualizar</button>
+                </form> 
+            </div>
+
+            <div class="general-form-user">
+                <form class="" style="width: 100%;">
+                    <h5 class="text-img-user">Recuperar</h5>
+                    <br>
+                    <div class="form-cool formUser-doble">
+                        <label for="UserNewPassword" class="flex-row-patern campoDoble user-form-labels">Contraseña nueva
+                            <input type="text" id="UserNewPassword" name="UserNewPassword" placeholder="Contraseña nueva" class="campos" required>
+                        </label>
+                        <label for="UserNewPasswordValidate" class="flex-row-patern campoDoble user-form-labels">Verifica la contraseña
+                            <input type="text" id="UserNewPasswordValidate" name="UserNewPasswordValidate" placeholder="Verifica la contraseña" class="campos" required>
+                        </label>
+                    </div>
+                    <button type="submit" id="sign-btn2" class="link-g btn btn-form light-btn">Actualizar</button>
+                </form> 
+            </div>
+        </div>
+        <!-- /FORM 04  -->
+
+    </article>
+    <!-- /FORMULARIOS  -->
+</section>
+<!-- /CONTENEDOR  -->
+
+
+<!-- TOP BUTTON -->
+<div class="btn-top-static ">
+    <button class="btn-simple-gen btn-simple-menu btn-simple-top btn-action trans" id="toTopBtn"><i class='bx bx-chevron-up'></i></button>
+</div>
+<!-- /TOP BUTTON -->
+ 
+    <script src="./JS/topweb.js"></script>
+    <script src="./JS/image-btn.js"></script>
+    <script src="./JS/sections.js"></script>
+    <script src="./JS/menu-slide.js"></script>
+</body>
+</html>

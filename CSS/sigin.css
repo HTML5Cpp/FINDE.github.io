@@ -1,0 +1,187 @@
+@media (max-width: 900px) and (min-width:771px){
+    .btn{
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+        background-color: var(--Rojo);
+        cursor: pointer;
+    }
+    .btn-action{
+        width: auto;
+        height: auto;
+    }
+    
+    
+    /** NAV */
+    #menunav{
+        flex-flow: column wrap;
+    }
+    /** NAV */
+
+    
+    /*? CONTENEDOR */
+           
+        /** FIGURAS IMGS */
+        .fig_log{
+            display: none;
+        }
+        .fig_svg{
+            display: none;
+        }
+        /** FIGURAS IMGS */
+
+
+        /** CARDS */
+    #card{
+        width: 85%;
+        height: 95%;
+        padding: 0.6rem 2rem;
+        justify-content: space-evenly;
+        flex-flow: column wrap;
+    }
+        #div_card-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+        }
+        #div_card-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+        }
+        #div_card-3{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+        #div_card-3 div{
+            width: 100%;
+            display: inline;
+            text-align: center;
+        }
+        .btn-sesion{
+            width: auto;
+        }
+        a.btn-sesion{
+            text-align: center;
+        }
+    /** CARDS */
+}
+
+@media (max-width: 1024px) and (min-width:901px){
+     /** NAV */
+     .btn{
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+        background-color: var(--Rojo);
+        cursor: pointer;
+    }
+   
+    .campos{
+        width: 100%;
+        height: auto;
+        padding: 0.4rem 0.7rem;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        border: 0;
+        outline: solid var(--Negro) 2px;
+        transition: all 0.3s;
+    }
+    .campoDoble{
+        width: 49%;
+    }
+    .form-cool{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a.btn-sesion{
+        text-align: center;
+    }
+    /*? CONTENEDOR */
+
+        /** CARDS */
+    #card{
+        width: 50%;
+        height: 85%;
+        padding: 0.8rem 2rem;
+        justify-content: center;
+        flex-flow: column nowrap;
+        overflow: scroll;
+    }
+        #card h2{
+            font-size: 1.8rem;
+            
+        }
+        #card h4{
+            width: 100%;
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+        #card p{
+            width: 100%;
+            font-size: 1rem;
+            font-weight: 400;
+            margin: 1rem 0 0 0;
+        }
+        #div_card-1{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            gap: 0;
+        }
+        #div_card-3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            gap: 1rem;
+        }
+    
+    /** CARDS */
+
+    /** TABS */
+.tab-container{
+    width: 100%;
+    height: auto;
+    min-height: 2.6rem;
+    padding: 0.2rem;
+    margin: 0.5rem 0rem;
+
+    gap: 0rem 0.5rem;
+}
+
+
+    .name {
+        padding: 0.4rem;
+        font-size: 0.9rem;
+    }
+/** TABS */
+}
+
+
+@media (min-width:1280px){
+    #card{
+        width: 30%;
+        height: 80%;
+        padding: 0.8rem 2rem;
+        justify-content: space-evenly;
+        flex-flow: column nowrap;
+        overflow: hidden;
+    }
+    .tab-container{
+        width: 100%;
+        height: auto;
+        min-height: 2.6rem;
+        padding: 0.2rem;
+        margin: 0.5rem 0rem;
+    
+        gap: 0rem 0.5rem;
+    }
+    
+}

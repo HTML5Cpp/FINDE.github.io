@@ -1,0 +1,22 @@
+
+.fig_svg_header{
+    width: 8%;
+    height: auto;
+    aspect-ratio: 1/1;
+    position: absolute;
+    transform: translate(50%, -50%);
+    z-index: -1;
+}
+
+.fig_svg_header_us{
+    width: 8%;
+    height: auto ;
+    aspect-ratio: 1/1;
+    position: absolute;
+    transform: translate(50%, -50%);
+    z-index: 1;
+}
+.fig_img{
+    width: auto;
+    height: 100%;
+}

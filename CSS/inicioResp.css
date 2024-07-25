@@ -1,0 +1,59 @@
+@media (max-width: 1024px) and (min-width:901px){
+
+}
+
+@media (min-width:1280px){
+    /** HEADER */
+    .header-items{
+        margin: 0;
+        gap: 1rem;
+    }
+        
+            .text-normal{
+                font-size: 3.5rem;
+            }
+/** HEADER */
+
+/** CARRUSEL */
+    .carousel-slide{
+        padding: 0.5rem 1rem;
+            
+    }
+/** CARRUSEL */
+
+/* ACTION CALL */
+        .action-cell{
+            height: 90%;
+            position: absolute;
+        }
+        .action-figure{
+            width: 90%;
+            height: auto;
+        }
+    .action-call-copy{
+        width: 50%;
+        gap: 1rem;
+    }
+        .action-call-title{
+            font-size: var(--Font-Subtitulos);
+            font-weight: 400;
+            color: var(--Negro)
+        }
+        .action-call-text{
+            padding: 1rem 2rem 0rem 0rem;
+            font-size: var(--Font-Textos);
+            font-weight: 400;
+            color: var(--Negro);
+            text-align: left;
+        }
+        .action-call-link{
+            width: 100%;
+            height: auto;
+            text-decoration: none;
+            color: var(--Negro);
+            font-weight: bold;
+        }
+
+
+/* ACTION CALL */
+}

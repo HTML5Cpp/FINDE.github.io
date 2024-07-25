@@ -1,0 +1,488 @@
+/** NAV */
+
+#menunav{
+    width: 100%;
+    height: 14vh;
+    padding: 1rem 2rem;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-flow: column nowrap;
+}
+    #secnav-1{
+        width: 100%;
+        height: 60%;
+
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }   
+        .nav-1sections{
+            width: auto;
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+        }
+        #sec1-nav1{
+            padding: 0rem 1rem 0rem 0rem;
+        } 
+            #sec1-nav1 img{
+                width: auto;
+                height: 90%;
+            }
+        #sec1-nav2{
+            justify-content: end;
+            flex-flow: row wrap;
+            gap: 1rem;
+        } 
+    #secnav-2{
+        width: 100%;
+        height: 40%;
+
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+/** NAV */
+
+
+/*? CONTENEDOR */
+    #contenedor{
+        width: 100%;
+        height: 86vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        overflow: hidden;
+    }
+        
+        /** FIGURAS IMGS */
+        .fig_log{
+            width: 30%;
+            height: auto;
+            aspect-ratio: 1/1;
+            top: 50%;
+            right: 2rem;
+            transform: translateY(-50%);
+            position: absolute;
+
+        }
+        .fig_img{
+            width: auto;
+            height: 100%;
+        }
+        .fig_svg{
+            width: 8%;
+            height: auto;
+            aspect-ratio: 1/1;
+            position: absolute;
+            transform: translate(50%, -50%);
+            z-index: 1;
+        }
+        /** FIGURAS IMGS */
+
+
+    /** CARDS */
+    #card{
+        width: 30%;
+        height: 80%;
+        border-radius: 35px;
+        padding: 2rem 3rem;
+        z-index: 2;
+        background-color: var(--Blanco);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: column nowrap;
+        border: solid 1px var(--Negro);
+    }
+        #card h2{
+            font-size: 2rem;
+            text-align: center;
+        }
+        #card h4{
+            width: 50%;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        #card p{
+            width: 100%;
+            font-size: 1rem;
+            font-weight: 400;
+            margin: 1rem 0;
+        }
+        .div-card{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+        }
+        #div_card-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+        }
+        #div_card-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+        }
+        #div_card-3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+        }
+    /** CARDS */
+
+/*? CONTENEDOR */
+
+
+
+/*! SIGIN */
+
+/** TABS */
+.tab-container{
+    width: 100%;
+    height: auto;
+    min-height: 2.5rem;
+    padding: 0.2rem ;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+
+    background-color: var(--Blanco);
+    border-radius: 9px;
+    
+    border: solid var(--Negro) 2px;
+}
+    .radio{
+        width: 50%;
+        height: 90%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+        .radio input {
+            display: none;
+        }
+
+    .name {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        border: none;
+        padding: .5rem 0;
+        color: var(--Negro) ;
+
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .radio input:checked + .name {
+        color: var(--Fondo) ;
+    }
+    .radio input:checked + .light-tab {
+        background-color: var(--Rojo);
+    }
+    .radio input:checked + .dark-tab {
+        background-color: var(--Negro);
+    }
+/** TABS */
+
+
+
+
+/*! SIGIN */
+
+
+@media (max-width: 770px){
+    
+    .btn{
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+        background-color: var(--Rojo);
+        cursor: pointer;
+    }
+    .btn-action{
+        width: auto;
+        height: auto;
+    }
+    
+    
+    /** NAV */
+    #menunav{
+        flex-flow: column wrap;
+    }
+    /** NAV */
+
+    
+    /*? CONTENEDOR */
+           
+        /** FIGURAS IMGS */
+        .fig_log{
+            display: none;
+        }
+        .fig_svg{
+            display: none;
+        }
+        /** FIGURAS IMGS */
+
+
+        /** CARDS */
+    #card{
+        width: 85%;
+        height: 95%;
+        padding: 0.6rem 2rem;
+        justify-content: space-evenly;
+        flex-flow: column wrap;
+    }
+        #card h4{
+            width: 70%;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        #div_card-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+        }
+        #div_card-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+        }
+        #div_card-3{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+        #div_card-3 div{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            gap: 0.5rem 0rem;
+        }
+        .btn-sesion{
+            width: 70%;
+            text-align: center;
+        }
+    /** CARDS */
+}
+
+
+@media (max-width: 900px) and (min-width:771px){
+    .btn{
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+        background-color: var(--Rojo);
+        cursor: pointer;
+    }
+    .btn-action{
+        width: auto;
+        height: auto;
+    }
+    
+    
+    /** NAV */
+    #menunav{
+        flex-flow: column wrap;
+    }
+    /** NAV */
+
+    
+    /*? CONTENEDOR */
+           
+        /** FIGURAS IMGS */
+        .fig_log{
+            display: none;
+        }
+        .fig_svg{
+            display: none;
+        }
+        /** FIGURAS IMGS */
+
+
+        /** CARDS */
+    #card{
+        width: 85%;
+        height: 95%;
+        padding: 0.6rem 2rem;
+        justify-content: space-evenly;
+        flex-flow: column wrap;
+    }
+        #div_card-1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+        }
+        #div_card-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+        }
+        #div_card-3{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+        #div_card-3 div{
+            width: 100%;
+            display: inline;
+            text-align: center;
+        }
+        .btn-sesion{
+            width: auto;
+            text-align: center;
+        }
+    /** CARDS */
+}
+
+@media (max-width: 1024px) and (min-width:901px){
+     /** NAV */
+
+    
+    .campoDoble{
+        width: 49%;
+    }
+    .form-cool{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /*? CONTENEDOR */
+
+        /** CARDS */
+    #card{
+        width: 45%;
+        height: 95%;
+        padding: 0.8rem 2rem;
+        justify-content: space-evenly;
+        flex-flow: column nowrap;
+        overflow: scroll;
+    }
+
+        #card h4{
+            width: 100%;
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+        #card p{
+            width: 100%;
+            font-size: 1rem;
+            font-weight: 400;
+            margin: 1rem 0 0 0;
+        }
+        
+        #div_card-3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            gap: 1rem;
+        }
+    
+    /** CARDS */
+
+    /** TABS */
+.tab-container{
+    width: 100%;
+    height: auto;
+    min-height: 2.6rem;
+    padding: 0.2rem;
+    margin: 0.5rem 0rem;
+
+    gap: 0rem 0.5rem;
+}
+
+
+    .name {
+        padding: 0.4rem;
+        font-size: 0.9rem;
+    }
+/** TABS */
+}
+
+
+
+@media (max-width: 1366px) and (min-width: 1025px){
+    #card{
+        width: 45%;
+        height: 95%;
+        padding: 0.6rem 2rem;
+        justify-content: space-evenly;
+        flex-flow: column wrap;
+    }
+    
+    #card h4{
+        width: 80%;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    /** TABS */
+.tab-container{
+    width: 100%;
+    height: auto;
+    min-height: 2rem;
+    padding: 0.1rem ;
+    margin: 0.5rem 0rem 1rem 0rem;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 0rem 0.5rem;
+
+    background-color: var(--Blanco);
+    border-radius: 9px;
+    
+    border: solid var(--Negro) 2px;
+}
+    .radio{
+        width: 50%;
+        height: 90%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .name {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        border: none;
+        padding: .5rem 0;
+        color: var(--Negro) ;
+
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+/** TABS */
+}
