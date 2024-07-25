@@ -7,8 +7,6 @@
     justify-content: space-between;
     flex-flow: row wrap;
     gap: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
     .user-sections{
         width: 30%;
@@ -17,14 +15,12 @@
         align-items: start;
         flex-flow: column nowrap;
         gap: 1rem;
-        overflow-x: hidden;
     }
         .user-sec{
             width: 100%;
             height: auto;
             padding: 1rem;
             text-decoration: none;
-            
             
             border: 2px solid var(--Negro);
             border-radius: var(--B-Radio2);
@@ -259,38 +255,38 @@
 /*? CELULAR */
 @media (max-width: 800px){
     /** MENU USUARIO */
-.user-container{
-    width: 100%;
-    height: 90dvh;
-    padding: 1rem 0rem 0rem 0rem;
-    
-    justify-content: start;
-    flex-flow: column nowrap;
-    gap: 0.5rem;
-    position: relative;
-}
-    .user-sections{
-        width: 100%;
-        height: 30%;
-        min-height: 4rem;
-        max-height: 4rem;
-        padding: 0rem 0.5rem;
-        justify-content: start;
-        align-items: start;
-        flex-flow: row nowrap;
-        gap: 0.5rem;
-
-        overflow-x: scroll;
-    }
-        .user-sec{
-            width: auto;
+        .user-container{
+            width: 100%;
+            height: 90dvh;
+            padding: 1rem 0rem 0rem 0rem;
             
-            height: 100%;
-            padding: 0.5rem 1rem;
-
-            justify-content: center;
+            justify-content: start;
+            flex-flow: column nowrap;
+            gap: 1rem;
+            position: relative;
         }
-/** MENU USUARIO */
+            .user-sections{
+                width: 100%;
+                height: 30%;
+                min-height: 4rem;
+                max-height: 4rem;
+                padding: 0rem 0.5rem;
+                justify-content: start;
+                align-items: start;
+                flex-flow: row nowrap;
+                gap: 0.5rem;
+
+                overflow-x: scroll;
+            }
+                .user-sec{
+                    width: auto;
+                    
+                    height: 100%;
+                    padding: 0.5rem 1rem;
+
+                    justify-content: center;
+                }
+    /** MENU USUARIO */
 
 
 /** FORMULARIOS */
@@ -301,7 +297,7 @@
         justify-content: center;
         align-items: center;
         flex-flow: column nowrap;
-        padding: 0rem 2rem;
+        padding: 2rem 2rem 0rem 2rem;
     }   
     /*? FORMS */
         .usform{
