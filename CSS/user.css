@@ -289,71 +289,72 @@
     /** MENU USUARIO */
 
 
-/** FORMULARIOS */
-    .user-forms{
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: column nowrap;
-        padding: 2rem 2rem 0rem 2rem;
-    }   
-    /*? FORMS */
-        .usform{
+    /** FORMULARIOS */
+        .user-forms{
             width: 100%;
             height: auto;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-flow: column nowrap;
-        }
-        .general-form-user{
-            width: 100%;
-            height: auto;
-            padding: 1rem;
-        }
-                .user-image-form form{
-                    justify-content: space-between;
-                }
-                .div-image-form{
-                    width: auto;
-                    gap: 0;
-                }
-                .img-cont-user{
-                    width: 50%;
-                    height: 100%;
-                    justify-content: start;
-                    gap: 0.5rem;
-                }
-                    .figure-img-user{
-                        width: 50%;
+            padding: 2rem 2rem 0rem 2rem;
+            overflow: visible;
+        }   
+        /*? FORMS */
+            .usform{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                flex-flow: column nowrap;
+            }
+            .general-form-user{
+                width: 100%;
+                height: auto;
+                padding: 1rem;
+            }
+                    .user-image-form form{
+                        justify-content: space-between;
                     }
-                        .figure-img-user img{
-                            width: 100%;
-                            height: auto;
+                    .div-image-form{
+                        width: auto;
+                        gap: 0;
+                    }
+                    .img-cont-user{
+                        width: 50%;
+                        height: 100%;
+                        justify-content: start;
+                        gap: 0.5rem;
+                    }
+                        .figure-img-user{
+                            width: 50%;
                         }
-                        
-
-        table{
-            
-            width: 100%;
-            overflow: hidden;
-        }
-        th{
-            border-bottom: 1px solid var(--Negro);
-            text-align: center;
-        }
-        tr{
-            position: relative;
-        }
-        td, th {
-            padding: 0rem;
-        }
-        .centertd{
-            text-align: center;
-            
-        }
+                            .figure-img-user img{
+                                width: 100%;
+                                height: auto;
+                            }
+                            
+            table{
+                
+                width: 100%;
+                overflow: hidden;
+            }
+            th{
+                border-bottom: 1px solid var(--Negro);
+                text-align: center;
+            }
+            tr{
+                position: relative;
+            }
+            td, th {
+                padding: 0rem;
+            }
+            .centertd{
+                text-align: center;
+                
+            }
+    /** FORMULARIOS */
 }
 /*? CELULAR */
 
