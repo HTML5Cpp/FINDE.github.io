@@ -33,7 +33,7 @@ googleLogin.addEventListener('click', function(){
       const user = result.user;
       console.log(user);
       updateUserProfile(user)
-      //window.location.href = "usuario.html"
+      window.location.href = "usuario.html"
 
     }).catch((error) => {
       // Handle Errors here.

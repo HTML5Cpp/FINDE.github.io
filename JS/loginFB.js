@@ -47,7 +47,7 @@ submitLogin.addEventListener("click", function(event) {
         // ...
         alert(uid)
         updateUserProfile(user)
-        //window.location.href = 'index.html';
+        window.location.href = 'index.html';
       } else {
         // User is signed out
         // ...
