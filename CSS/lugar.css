@@ -203,17 +203,22 @@
                 text-align: left;
             }
         
+            tbody{
+                width: 100%;
+            }
+            .table-place-con{
+                width: 100%;
+                height: auto;
+            }
             .table-horarios{
                 width: 100%;
                 height: auto;
                 border-collapse: separate;
             }
-            .table-horarios tr{
-                width: 30%;
-            }
+
             .item-table-place{
                 text-align: center;
-                padding: 0.5rem 0rem;
+                padding: 0.5rem 1.5rem;
                 cursor: pointer;
             }
                 
@@ -221,15 +226,20 @@
                     border-radius: var(--B-Radio2) 0 0 var(--B-Radio2);
                     background-color: var(--Gris);
                     color: var(--Blanco);
+                    width: 40%;
                 }
                 .table-horarios .Hapertura, .Hcierre{
                     padding: 0rem;
                     background-color: var(--Gris2);
                 }
                     .Hapertura{
-                        border-radius:none ;
+                        border-radius: none;
+                        
+                        
                     }
                     .Hcierre{
+                        
+                        
                         border-radius: 0 var(--B-Radio2) var(--B-Radio2) 0;
                     }
     
