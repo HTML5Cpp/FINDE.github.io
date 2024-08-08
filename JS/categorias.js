@@ -18,10 +18,10 @@ getURLParameters();
 
 function Rutas(type){
     const RUTAS = {
-        'restaurants': '../JSON/restaurants.json',
-        'culture': '../JSON/culture.json',
-        'night': '../JSON/night.json',
-        'fun': '../JSON/fun.json',
+        'restaurants': '/JSON/restaurants.json',
+        'culture': '/JSON/culture.json',
+        'night': '/JSON/night.json',
+        'fun': 'JSON/fun.json',
         'health': '../JSON/health.json'
     }
 
