@@ -19,11 +19,11 @@ getURLParameters();
 
 function Rutas(type){
     const RUTAS = {
-        'restaurants': 'JSON/restaurants.json',
-        'culture': 'JSON/culture.json',
-        'night': 'JSON/night.json',
-        'fun': 'JSON/fun.json',
-        'health': 'JSON/health.json'
+        'restaurants': '../JSON/restaurants.json',
+        'culture': '../JSON/culture.json',
+        'night': '../JSON/night.json',
+        'fun': '../JSON/fun.json',
+        'health': '../JSON/health.json'
     }
 
     return RUTAS[type];
@@ -34,14 +34,12 @@ async function loadJSON() {
         let { type, lugar } = getURLParameters();
 
         let ruta = Rutas(type);
-        console.log('Lugar:' + lugar);
 
         let archivo = await fetch(`${ruta}`);
         let data = await archivo.json();
 
         
         let buscarLugar = data.places.find(place => place.name == lugar);
-
         console.table(buscarLugar);
         
         if (buscarLugar) {
@@ -51,8 +49,10 @@ async function loadJSON() {
             let direction = document.getElementById('direcction-place');
             let description = document.getElementById('description-place');
             let words = document.getElementById('words-place');
-            let apertura = document.querySelectorAll('.Hapertura');
-            let cierre = document.querySelectorAll('.Hcierre');
+            let apertura = document.querySelectorAll('.HdeskAp');
+            let cierre = document.querySelectorAll('.HdeskCi'); 
+            let mobilAper = document.querySelectorAll('.mobileHa');
+            let mobilCie = document.querySelectorAll('.mobileHc');
 
             image.src = buscarLugar.img;
             imageLogo.src = buscarLugar.logo;
@@ -79,6 +79,25 @@ async function loadJSON() {
             });
 
             cierre.forEach((cie, index) => {
+                if(buscarLugar.horario[index].estado == 'op'){
+                    cie.innerText = buscarLugar.horario[index].Hcierre;
+                }
+                else{
+                    cie.innerText = '--'
+                }
+            });
+
+            mobilAper.forEach((aper, index) => {
+                if(buscarLugar.horario[index].estado == 'op'){
+                    aper.innerText = buscarLugar.horario[index].Hapertura;
+                }
+                else{
+                    aper.innerText = '--'
+                }
+                
+            });
+
+            mobilCie.forEach((cie, index) => {
                 if(buscarLugar.horario[index].estado == 'op'){
                     cie.innerText = buscarLugar.horario[index].Hcierre;
                 }
