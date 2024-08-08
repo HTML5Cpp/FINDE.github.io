@@ -308,11 +308,17 @@
 .mobilYES{
     display: none;
 }
+.mobilYES2{
+    display: none;
+}
 
 /*? CELULAR */
 @media (max-width: 800px){
     .mobilYES{
         display: flex;
+    }
+    .mobilYES2{
+        display: block;
     }
     .mobilNO{
         display: none;
