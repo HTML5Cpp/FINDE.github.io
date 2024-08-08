@@ -1,11 +1,13 @@
 /** NAV */
 .filter-container{
-    height: 9vh;
+    height: 9dvh;
+    max-height: 144px;
     padding: 0.5rem 2rem;
     position: sticky;
     top: 0;
     right: 0;
     z-index: 10;
+    overflow: hidden;
 }
     .c-restaurant{
         background-color: var(--C-Naranja);
@@ -255,7 +257,7 @@
 .footer{
     width: 100%;
     height: auto;
-    min-height: 30vh;
+    min-height: 30dvh;
     overflow: hidden;
     padding: 1rem 0rem;
 
@@ -318,7 +320,7 @@
     /** NAV */
         .filter-container{
             width: 100%;
-            height: 10vh;
+            height: 10dvh;
         }
             .menumovil{
                 width: 100%;
@@ -425,7 +427,7 @@
 .footer{
     width: 100%;
     height: auto;
-    min-height: 30vh;
+    min-height: 30dvh;
     overflow: hidden;
     padding: 1rem 0rem;
 
@@ -489,4 +491,11 @@
 }
 .regresar-nav{
     transform: translateX(-100%);
+}
+
+.noAccount{
+    display: none;
+}
+.yesAccount{
+    display: block;
 }

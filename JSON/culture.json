@@ -1,0 +1,832 @@
+{
+    "places": [
+        {
+            "name": "Museo de Arte e Historia de Guanajuato",
+            "direction": "Prol. Calzada de los Héroes 908, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/museo.webp",
+            "logo": "./MEDIA/culture/logo/museo.png",
+            "description": "Un viaje a través del tiempo y el arte. El Museo de Arte e Historia de Guanajuato alberga exposiciones de arte y cultura regional que te permitirán conocer la riqueza histórica y artística de la región.",
+            "costo": [
+                {
+                    "minimo": "50",
+                    "maximo": "100"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "arte"
+                },
+                {
+                    "palabra": "Historia"
+                },
+                {
+                    "palabra": "exposiciones"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Casa de Cultura Diego Rivera",
+            "direction": "Callejón de Templo 10, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/cultura_diego_rivera.jfif",
+            "logo": "./MEDIA/culture/logo/cultura_diego_rivera.jpg",
+            "description": "Un centro cultural vibrante que ofrece una variedad de actividades artísticas y educativas. Desde talleres hasta exposiciones, la Casa de Cultura Diego Rivera es un epicentro de creatividad y aprendizaje.",
+            "costo": [
+                {
+                    "minimo": "0",
+                    "maximo": "0"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "vibrante"
+                },
+                {
+                    "palabra": "artístico"
+                },
+                {
+                    "palabra": "educativo"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Museo De Explora",
+            "direction": "Blvd. Francisco Villa 202, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/explora.jfif",
+            "logo": "./MEDIA/culture/logo/logo_explora_nuevo_0.png",
+            "description": "Un museo interactivo de ciencia y tecnología que ofrece actividades y exhibiciones para todas las edades. Explora el mundo de la ciencia de una manera divertida y educativa.",
+            "costo": [
+                {
+                    "minimo": "70",
+                    "maximo": "150"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "entretenido"
+                },
+                {
+                    "palabra": "familiar"
+                },
+                {
+                    "palabra": "educativo"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Galería Eloísa Jiménez",
+            "direction": "ACalle 5 de Febrero 301, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/galeria_elosia_jimenez.jfif",
+            "logo": "./MEDIA/culture/logo/galeria_elosia_jimenez.jfif",
+            "description": "Un espacio dedicado al arte contemporáneo local. La Galería Eloísa Jiménez exhibe obras de artistas emergentes y consolidados, ofreciendo una ventana a la creatividad y la innovación.",
+            "costo": [
+                {
+                    "minimo": "0",
+                    "maximo": "0"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "creatividad"
+                },
+                {
+                    "palabra": "artístico"
+                },
+                {
+                    "palabra": "innovación"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Museo de Arte e Historia de Guanajuato",
+            "direction": "Prol. Calzada de los Héroes 908, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/museo.webp",
+            "logo": "./MEDIA/culture/logo/museo.png",
+            "description": "Un viaje a través del tiempo y el arte. El Museo de Arte e Historia de Guanajuato alberga exposiciones de arte y cultura regional que te permitirán conocer la riqueza histórica y artística de la región.",
+            "costo": [
+                {
+                    "minimo": "50",
+                    "maximo": "100"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "arte"
+                },
+                {
+                    "palabra": "Historia"
+                },
+                {
+                    "palabra": "exposiciones"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Casa de Cultura Diego Rivera",
+            "direction": "Callejón de Templo 10, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/cultura_diego_rivera.jfif",
+            "logo": "./MEDIA/culture/logo/cultura_diego_rivera.jpg",
+            "description": "Un centro cultural vibrante que ofrece una variedad de actividades artísticas y educativas. Desde talleres hasta exposiciones, la Casa de Cultura Diego Rivera es un epicentro de creatividad y aprendizaje.",
+            "costo": [
+                {
+                    "minimo": "0",
+                    "maximo": "0"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "vibrante"
+                },
+                {
+                    "palabra": "artístico"
+                },
+                {
+                    "palabra": "educativo"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Museo De Explora",
+            "direction": "Blvd. Francisco Villa 202, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/explora.jfif",
+            "logo": "./MEDIA/culture/logo/logo_explora_nuevo_0.png",
+            "description": "Un museo interactivo de ciencia y tecnología que ofrece actividades y exhibiciones para todas las edades. Explora el mundo de la ciencia de una manera divertida y educativa.",
+            "costo": [
+                {
+                    "minimo": "70",
+                    "maximo": "150"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "entretenido"
+                },
+                {
+                    "palabra": "familiar"
+                },
+                {
+                    "palabra": "educativo"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Galería Eloísa Jiménez",
+            "direction": "ACalle 5 de Febrero 301, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/galeria_elosia_jimenez.jfif",
+            "logo": "./MEDIA/culture/logo/galeria_elosia_jimenez.jfif",
+            "description": "Un espacio dedicado al arte contemporáneo local. La Galería Eloísa Jiménez exhibe obras de artistas emergentes y consolidados, ofreciendo una ventana a la creatividad y la innovación.",
+            "costo": [
+                {
+                    "minimo": "0",
+                    "maximo": "0"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "creatividad"
+                },
+                {
+                    "palabra": "artístico"
+                },
+                {
+                    "palabra": "innovación"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Museo de Arte e Historia de Guanajuato",
+            "direction": "Prol. Calzada de los Héroes 908, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/museo.webp",
+            "logo": "./MEDIA/culture/logo/museo.png",
+            "description": "Un viaje a través del tiempo y el arte. El Museo de Arte e Historia de Guanajuato alberga exposiciones de arte y cultura regional que te permitirán conocer la riqueza histórica y artística de la región.",
+            "costo": [
+                {
+                    "minimo": "50",
+                    "maximo": "100"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "arte"
+                },
+                {
+                    "palabra": "Historia"
+                },
+                {
+                    "palabra": "exposiciones"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Casa de Cultura Diego Rivera",
+            "direction": "Callejón de Templo 10, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/cultura_diego_rivera.jfif",
+            "logo": "./MEDIA/culture/logo/cultura_diego_rivera.jpg",
+            "description": "Un centro cultural vibrante que ofrece una variedad de actividades artísticas y educativas. Desde talleres hasta exposiciones, la Casa de Cultura Diego Rivera es un epicentro de creatividad y aprendizaje.",
+            "costo": [
+                {
+                    "minimo": "0",
+                    "maximo": "0"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "vibrante"
+                },
+                {
+                    "palabra": "artístico"
+                },
+                {
+                    "palabra": "educativo"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Museo De Explora",
+            "direction": "Blvd. Francisco Villa 202, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/explora.jfif",
+            "logo": "./MEDIA/culture/logo/logo_explora_nuevo_0.png",
+            "description": "Un museo interactivo de ciencia y tecnología que ofrece actividades y exhibiciones para todas las edades. Explora el mundo de la ciencia de una manera divertida y educativa.",
+            "costo": [
+                {
+                    "minimo": "70",
+                    "maximo": "150"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "entretenido"
+                },
+                {
+                    "palabra": "familiar"
+                },
+                {
+                    "palabra": "educativo"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "6:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Galería Eloísa Jiménez",
+            "direction": "ACalle 5 de Febrero 301, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/culture/background/galeria_elosia_jimenez.jfif",
+            "logo": "./MEDIA/culture/logo/galeria_elosia_jimenez.jfif",
+            "description": "Un espacio dedicado al arte contemporáneo local. La Galería Eloísa Jiménez exhibe obras de artistas emergentes y consolidados, ofreciendo una ventana a la creatividad y la innovación.",
+            "costo": [
+                {
+                    "minimo": "0",
+                    "maximo": "0"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "creatividad"
+                },
+                {
+                    "palabra": "artístico"
+                },
+                {
+                    "palabra": "innovación"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "7:00 P.M."
+                }
+            ]
+        }
+    ]
+}

@@ -2,7 +2,7 @@
 
 #menunav{
     width: 100%;
-    height: 14vh;
+    height: 14dvh;
     padding: 1rem 2rem;
 
     position: relative;
@@ -54,7 +54,7 @@
 /*? CONTENEDOR */
     #contenedor{
         width: 100%;
-        height: 86vh;
+        height: 86dvh;
         position: relative;
         display: flex;
         justify-content: center;

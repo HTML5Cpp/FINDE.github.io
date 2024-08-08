@@ -168,7 +168,7 @@ html {
 }
 .formato_containers{
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
 }
 .flex-row-patern{
     display: flex;

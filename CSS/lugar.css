@@ -1,0 +1,241 @@
+.general-places-container{
+    width: 100%;
+    height: 70vh;
+
+    padding: 0rem 2rem;
+}
+.place-margin-bottom{
+    margin-bottom: 1rem;
+}
+    .menu-fixed-place{
+        width: 5%;
+        height: 100%;
+        padding: 1rem;
+        justify-content: start;
+        flex-flow: column nowrap;
+    }
+        .btn-menu-place{
+            width: 100%;
+            height: auto;
+            padding: 0.5rem;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            background-color: var(--Rojo);
+            color: var(--Blanco);
+            text-decoration: none;
+            font-size: var(--Font-Iconos);
+        }
+    .carrusel-places-container{
+        width: 45%;
+        height: 100%;
+        background-color: #201e1f;
+        border-radius: var(--B-Radio2);
+        overflow: hidden;
+    }
+        .carrusel-places-container img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .info-places-container{
+        width: 50%;
+        height: 100%;
+    
+    }
+    .info-places-container p, td, th{
+        font-size: var(--Font-Textos);
+        color: var(--Negro);
+    }
+        .principal-info-place{
+            width: 100%;
+            height: auto;
+
+
+            justify-content: start;
+            overflow: hidden;
+        }
+            .principal-info-place img{
+                width: 10%;
+                height: auto;
+                border-radius: 50%;
+                aspect-ratio: 1/1;
+                overflow: hidden;
+            }
+            .principal-info-place h3{
+                font-size: var(--Font-SecTitulos);
+                color: var(--Negro);
+            }
+        .description-places-container{
+            width: 70%;
+            text-align: left;
+        }
+
+        
+            .tags{
+
+                border: solid 0.01rem var(--Negro);
+                background-color: var(--Negro);
+                color: var(--Blanco);
+            }
+
+
+        .table-horarios{
+            width: 100%;
+            height: auto;
+            border-collapse: separate;
+        }
+        .item-table-place{
+            text-align: center;
+            padding: 0.5rem;
+            cursor: pointer;
+        }
+            
+            .Htitle{
+                border-radius: var(--B-Radio2) var(--B-Radio2) 0 0;
+                background-color: var(--Gris);
+                color: var(--Blanco);
+            }
+            .table-horarios .Hapertura, .Hcierre{
+                padding: 1rem 0.5rem;
+                background-color: var(--Gris2);
+            }
+                .Hapertura{
+                    border-radius:none ;
+                }
+                .Hcierre{
+                    border-radius: 0 0 var(--B-Radio2) var(--B-Radio2);
+                }
+
+                .item-table-place:hover {
+                    background-color: var(--Negro);
+                    color: var(--Blanco);
+                }       
+    /*
+        .rating{
+            width: 20%;
+            min-width: 20%;
+            height: auto;
+            position: relative;
+        }
+            .rating:not(:checked) > input {
+                position: absolute;
+                appearance: none;
+            }
+        
+            .rating:not(:checked) > label {
+                float: right;
+                cursor: pointer;
+                font-size: 30px;
+                color: #666;
+            }
+        
+            .rating:not(:checked) > label:before {
+                content: '★';
+            }
+        
+            .rating > input:checked + label:hover,
+            .rating > input:checked + label:hover ~ label,
+            .rating > input:checked ~ label:hover,
+            .rating > input:checked ~ label:hover ~ label,
+            .rating > label:hover ~ input:checked ~ label {
+                color: var(--Rojo3);
+            }
+        
+            .rating:not(:checked) > label:hover,
+            .rating:not(:checked) > label:hover ~ label {
+                color: var(--Rojo3);
+            }
+        
+            .rating > input:checked ~ label {
+                color: var(--Rojo);
+            }
+      */
+      
+
+/*? CELULAR */
+@media (max-width: 800px){
+    .general-places-container{
+        width: 100%;
+        height: auto;
+        min-height: 100dvh;
+    
+        padding: 0rem 2rem;
+        justify-content: start;
+        flex-flow: column nowrap;
+    }
+    .place-margin-bottom{
+        margin-bottom: 1rem;
+    }
+        .menu-fixed-place{
+            width: 100%;
+            height: 5%;
+            max-height: 5%;
+            padding: 0rem;
+            justify-content: center;
+            flex-flow: row nowrap;
+            position: relative;
+            overflow: hidden;
+        }
+            .btn-menu-place{
+                width: auto;
+            }
+        .carrusel-places-container{
+            width: 100%;
+            height: 35%;
+        }
+    
+        .info-places-container{
+            width: 100%;
+            height: 60%;
+        }
+            .principal-info-place{
+                width: 100%;
+                height: auto;
+            }
+                .principal-info-place img{
+                    width: 30%;
+                    height: auto;
+                }
+
+            .description-places-container{
+                width: 100%;
+                text-align: left;
+            }
+        
+            .table-horarios{
+                width: 100%;
+                height: auto;
+                border-collapse: separate;
+            }
+            .table-horarios tr{
+                width: 30%;
+            }
+            .item-table-place{
+                text-align: center;
+                padding: 0.5rem 0rem;
+                cursor: pointer;
+            }
+                
+                .Htitle{
+                    border-radius: var(--B-Radio2) 0 0 var(--B-Radio2);
+                    background-color: var(--Gris);
+                    color: var(--Blanco);
+                }
+                .table-horarios .Hapertura, .Hcierre{
+                    padding: 0rem;
+                    background-color: var(--Gris2);
+                }
+                    .Hapertura{
+                        border-radius:none ;
+                    }
+                    .Hcierre{
+                        border-radius: 0 var(--B-Radio2) var(--B-Radio2) 0;
+                    }
+    
+                    .item-table-place:hover {
+                        background-color: var(--Negro);
+                        color: var(--Blanco);
+                    }       
+}
+      

@@ -101,14 +101,14 @@
         
         flex-flow: column wrap;
         gap: 2rem;
-        animation: movement 25s linear infinite;
+        animation: movement 15s linear infinite;
     }
         @keyframes movement{
             0%{
                 transform: translateX(0%);
             }
             100%{
-                transform: translateX(-155% );
+                transform: translateX(-80% );
             }
         }
 
@@ -121,6 +121,7 @@
             background-color: var(--Blanco);
             border-radius: var(--B-Radio2);
             position: relative;
+            text-decoration: none;
 
             display: flex;
             justify-content: end;
@@ -164,6 +165,7 @@
                     border-radius: 50%;
                     object-fit: cover;
                     overflow: hidden;
+                    aspect-ratio: 1/1;
                 }
                     .card-carrusel-text{
                         font-size: 0.75rem;

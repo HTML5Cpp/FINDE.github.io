@@ -1,0 +1,349 @@
+{
+    "places": [
+        {
+            "name": "Bol León",
+            "direction": "Blvd. Campestre 2001, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/fun/background/bol_leon.jpg",
+            "logo": "./MEDIA/fun/logo/bol_leon.jpg",
+            "description": "Un centro de boliche moderno y divertido donde puedes disfrutar de una partida de boliche con amigos o familia. Bol León ofrece un ambiente vibrante y lleno de energía.",
+            "costo": [
+                {
+                    "minimo": "200",
+                    "maximo": "400"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "divertido"
+                },
+                {
+                    "palabra": "boliche"
+                },
+                {
+                    "palabra": "amigos"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                }
+            ]
+        },
+        {
+            "name": "Urban Planet Jump",
+            "direction": "Blvd. Paseo de los Insurgentes 1005, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/fun/background/urban_jump.jpg",
+            "logo": "./MEDIA/fun/logo/urban_jump.jfif",
+            "description": "Un parque de trampolines lleno de adrenalina y diversión. Urban Jump ofrece una experiencia única de saltos y acrobacias para todas las edades.",
+            "costo": [
+                {
+                    "minimo": "150",
+                    "maximo": "300"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "divertido"
+                },
+                {
+                    "palabra": "adrenalina"
+                },
+                {
+                    "palabra": "amigos"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "10:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Go Karts León",
+            "direction": "Av. Olímpica 123, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/fun/background/Go_Karts.jpg",
+            "logo": "./MEDIA/fun/logo/Go_Karts.jpg",
+            "description": "Una pista de go-karts emocionante donde puedes poner a prueba tus habilidades de conducción y disfrutar de una carrera divertida con amigos o familia.",
+            "costo": [
+                {
+                    "minimo": "200",
+                    "maximo": "500"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "emocionante"
+                },
+                {
+                    "palabra": "velocidad"
+                },
+                {
+                    "palabra": "amigos"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Enigma Rooms",
+            "direction": "Blvd. Paseo de los Insurgentes 2404, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/fun/background/Enigma_Rooms.jpg",
+            "logo": "./MEDIA/fun/logo/Enigma_Rooms.png",
+            "description": "Desafía tu mente y tus habilidades de resolución de problemas en Enigma Rooms. Este centro de escape rooms ofrece una variedad de escenarios intrigantes y desafiantes.",
+            "costo": [
+                {
+                    "minimo": "200",
+                    "maximo": "400"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "desafiante"
+                },
+                {
+                    "palabra": "intrigante"
+                },
+                {
+                    "palabra": "amigos"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "11:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Lasertag León",
+            "direction": "Blvd. Aeropuerto 500, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/fun/background/laser-tag.jpg",
+            "logo": "./MEDIA/fun/logo/laser-tag1.jpg",
+            "description": "Un centro de juegos de láser donde puedes participar en emocionantes batallas con amigos o familia. Lasertag León ofrece una experiencia llena de adrenalina y estrategia.",
+            "costo": [
+                {
+                    "minimo": "150",
+                    "maximo": "300"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "emocionante"
+                },
+                {
+                    "palabra": "amigos"
+                },
+                {
+                    "palabra": "adrenalina"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                }
+            ]
+        }
+    ]
+}

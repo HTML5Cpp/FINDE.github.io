@@ -1,0 +1,832 @@
+{
+    "places": [
+        {
+            "name": "Rincón Gaucho",
+            "direction": "Blvd. Campestre 1621, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/rincon.jpg",
+            "logo": "./MEDIA/restaurants/logo/Rincon_Gaucho.jfif",
+            "description": "Sumérgete en un viaje culinario al corazón de Argentina en Rincón Gaucho, donde los sabores auténticos de la parrilla argentina cobran vida. Disfruta de cortes de carne suculentos y vinos exquisitos en un ambiente rústico y acogedor que te hará sentir como en casa.",
+            "costo": [
+                {
+                    "minimo": "400 ",
+                    "maximo": "600"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "ROMANTICO"
+                },
+                {
+                    "palabra": "Rústico"
+                },
+                {
+                    "palabra": "Argentino"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Las Tremendas Burgers",
+            "direction": "Av. Panorama 800, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/tremendas.jpg",
+            "logo": "./MEDIA/restaurants/logo/tremendas_burguers.jfif",
+            "description": "Un paraíso para los amantes de las hamburguesas. Las Tremendas Burgers ofrece una variedad de hamburguesas gourmet con ingredientes frescos y combinaciones innovadoras que deleitarán tu paladar.",
+            "costo": [
+                {
+                    "minimo": "150",
+                    "maximo": "250"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "cafeteria"
+                },
+                {
+                    "palabra": "encantador"
+                },
+                {
+                    "palabra": "familiar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Peperovni",
+            "direction": "Blvd. Adolfo López Mateos 2020, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/peperovni.jpg",
+            "logo": "./MEDIA/restaurants/logo/peperovni.jpg",
+            "description": "Descubre la magia de Italia en Peperovni, donde las pizzas artesanales se preparan en un auténtico horno de leña. Cada bocado es una explosión de sabores frescos y auténticos.",
+            "costo": [
+                {
+                    "minimo": "200 ",
+                    "maximo": "350"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "cafeteria"
+                },
+                {
+                    "palabra": "encantador"
+                },
+                {
+                    "palabra": "familiar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Las Moras Cafe",
+            "direction": "Calle Madero 121, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/moras.png",
+            "logo": "./MEDIA/restaurants/logo/las_moras_cafe.jfif",
+            "description": "Un rincón encantador donde puedes disfrutar de una taza de café recién molido, acompañada de pasteles caseros y bocadillos ligeros. Las Moras Cafe es perfecto para relajarte y disfrutar de una buena lectura o una conversación amena.",
+            "costo": [
+                {
+                    "minimo": "100 ",
+                    "maximo": "200"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "cafeteria"
+                },
+                {
+                    "palabra": "encantador"
+                },
+                {
+                    "palabra": "familiar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Rincón Gaucho",
+            "direction": "Blvd. Campestre 1621, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/rincon.jpg",
+            "logo": "./MEDIA/restaurants/logo/Rincon_Gaucho.jfif",
+            "description": "Sumérgete en un viaje culinario al corazón de Argentina en Rincón Gaucho, donde los sabores auténticos de la parrilla argentina cobran vida. Disfruta de cortes de carne suculentos y vinos exquisitos en un ambiente rústico y acogedor que te hará sentir como en casa.",
+            "costo": [
+                {
+                    "minimo": "400 ",
+                    "maximo": "600"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "ROMANTICO"
+                },
+                {
+                    "palabra": "Rústico"
+                },
+                {
+                    "palabra": "Argentino"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Las Tremendas Burgers",
+            "direction": "Av. Panorama 800, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/tremendas.jpg",
+            "logo": "./MEDIA/restaurants/logo/tremendas_burguers.jfif",
+            "description": "Un paraíso para los amantes de las hamburguesas. Las Tremendas Burgers ofrece una variedad de hamburguesas gourmet con ingredientes frescos y combinaciones innovadoras que deleitarán tu paladar.",
+            "costo": [
+                {
+                    "minimo": "150",
+                    "maximo": "250"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "cafeteria"
+                },
+                {
+                    "palabra": "encantador"
+                },
+                {
+                    "palabra": "familiar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Peperovni",
+            "direction": "Blvd. Adolfo López Mateos 2020, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/peperovni.jpg",
+            "logo": "./MEDIA/restaurants/logo/peperovni.jpg",
+            "description": "Descubre la magia de Italia en Peperovni, donde las pizzas artesanales se preparan en un auténtico horno de leña. Cada bocado es una explosión de sabores frescos y auténticos.",
+            "costo": [
+                {
+                    "minimo": "200 ",
+                    "maximo": "350"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "cafeteria"
+                },
+                {
+                    "palabra": "encantador"
+                },
+                {
+                    "palabra": "familiar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Las Moras Cafe",
+            "direction": "Calle Madero 121, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/moras.png",
+            "logo": "./MEDIA/restaurants/logo/las_moras_cafe.jfif",
+            "description": "Un rincón encantador donde puedes disfrutar de una taza de café recién molido, acompañada de pasteles caseros y bocadillos ligeros. Las Moras Cafe es perfecto para relajarte y disfrutar de una buena lectura o una conversación amena.",
+            "costo": [
+                {
+                    "minimo": "100 ",
+                    "maximo": "200"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "cafeteria"
+                },
+                {
+                    "palabra": "encantador"
+                },
+                {
+                    "palabra": "familiar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Rincón Gaucho",
+            "direction": "Blvd. Campestre 1621, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/rincon.jpg",
+            "logo": "./MEDIA/restaurants/logo/Rincon_Gaucho.jfif",
+            "description": "Sumérgete en un viaje culinario al corazón de Argentina en Rincón Gaucho, donde los sabores auténticos de la parrilla argentina cobran vida. Disfruta de cortes de carne suculentos y vinos exquisitos en un ambiente rústico y acogedor que te hará sentir como en casa.",
+            "costo": [
+                {
+                    "minimo": "400 ",
+                    "maximo": "600"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "ROMANTICO"
+                },
+                {
+                    "palabra": "Rústico"
+                },
+                {
+                    "palabra": "Argentino"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Las Tremendas Burgers",
+            "direction": "Av. Panorama 800, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/tremendas.jpg",
+            "logo": "./MEDIA/restaurants/logo/tremendas_burguers.jfif",
+            "description": "Un paraíso para los amantes de las hamburguesas. Las Tremendas Burgers ofrece una variedad de hamburguesas gourmet con ingredientes frescos y combinaciones innovadoras que deleitarán tu paladar.",
+            "costo": [
+                {
+                    "minimo": "150",
+                    "maximo": "250"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "cafeteria"
+                },
+                {
+                    "palabra": "encantador"
+                },
+                {
+                    "palabra": "familiar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "10:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Peperovni",
+            "direction": "Blvd. Adolfo López Mateos 2020, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/peperovni.jpg",
+            "logo": "./MEDIA/restaurants/logo/peperovni.jpg",
+            "description": "Descubre la magia de Italia en Peperovni, donde las pizzas artesanales se preparan en un auténtico horno de leña. Cada bocado es una explosión de sabores frescos y auténticos.",
+            "costo": [
+                {
+                    "minimo": "200 ",
+                    "maximo": "350"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "cafeteria"
+                },
+                {
+                    "palabra": "encantador"
+                },
+                {
+                    "palabra": "familiar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "1:00 P.M.",
+                    "Hcierre": "11:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Las Moras Cafe",
+            "direction": "Calle Madero 121, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/restaurants/background/moras.png",
+            "logo": "./MEDIA/restaurants/logo/las_moras_cafe.jfif",
+            "description": "Un rincón encantador donde puedes disfrutar de una taza de café recién molido, acompañada de pasteles caseros y bocadillos ligeros. Las Moras Cafe es perfecto para relajarte y disfrutar de una buena lectura o una conversación amena.",
+            "costo": [
+                {
+                    "minimo": "100 ",
+                    "maximo": "200"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "cafeteria"
+                },
+                {
+                    "palabra": "encantador"
+                },
+                {
+                    "palabra": "familiar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                }
+            ]
+        }
+    ]
+}

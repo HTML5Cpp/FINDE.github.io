@@ -1,0 +1,212 @@
+{
+    "places": [
+        {
+            "name": "Spa Agua Santa",
+            "direction": "Av. Paseo del Moral 1415, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/health/background/agua_santa.jfif",
+            "logo": "./MEDIA/health/logo/agua_santa.png",
+            "description": "Un centro de relajación y bienestar que ofrece una variedad de tratamientos y terapias para rejuvenecer cuerpo y mente. Spa Agua Santa es un oasis de tranquilidad.",
+            "costo": [
+                {
+                    "minimo": "500",
+                    "maximo": "1500"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "bienestar"
+                },
+                {
+                    "palabra": "terapia"
+                },
+                {
+                    "palabra": "tranquilidad"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "9:00 A.M.",
+                    "Hcierre": "8:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Yogui Yoga León",
+            "direction": "Callejón de Templo 12, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/health/background/Yogui_Yoga.jpg",
+            "logo": "./MEDIA/health/logo/Yogui_Yoga.jpg",
+            "description": "Un estudio de yoga y meditación que ofrece clases para todos los niveles. Yogui Yoga León es el lugar perfecto para encontrar equilibrio y bienestar.",
+            "costo": [
+                {
+                    "minimo": "100",
+                    "maximo": "200"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "yoga"
+                },
+                {
+                    "palabra": "meditación"
+                },
+                {
+                    "palabra": "equilibrio"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "7:00 A.M.",
+                    "Hcierre": "9:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "7:00 A.M.",
+                    "Hcierre": "9:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "7:00 A.M.",
+                    "Hcierre": "9:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                   "Hapertura": "7:00 A.M.",
+                    "Hcierre": "9:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "7:00 A.M.",
+                    "Hcierre": "9:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "8:00 A.M.",
+                    "Hcierre": "2:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "7:00 A.M.",
+                    "Hcierre": "9:00 P.M."
+                }
+            ]
+        },
+        {
+            "name": "Yogui Yoga León",
+            "direction": "Blvd. Campestre 3001, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/health/background/energym.jfif",
+            "logo": "./MEDIA/health/logo/energym.jpg",
+            "description": "Un centro de acondicionamiento físico con instalaciones de última generación. Gimnasio Energym ofrece una variedad de clases y equipos para mantenerte en forma.",
+            "costo": [
+                {
+                    "minimo": "300",
+                    "maximo": "500"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "acondicionamiento"
+                },
+                {
+                    "palabra": "físico"
+                },
+                {
+                    "palabra": "gym"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "6:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "6:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "6:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                   "Hapertura": "6:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "6:00 A.M.",
+                    "Hcierre": "10:00 P.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "7:00 A.M.",
+                    "Hcierre": "5:00 P.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "7:00 A.M.",
+                    "Hcierre": "9:00 P.M."
+                }
+            ]
+        }
+
+    ]
+}

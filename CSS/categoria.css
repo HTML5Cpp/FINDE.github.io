@@ -1,29 +1,24 @@
-:root{
-    --Blanco: #fff;
-    --Fondo: #fef0e3;
-    --Rojo: #e92027;
-    --Negro: #201e1f;
-    --Gris: #7d7d7d;
-    --Gris2: #EEE;
-    --VerdeClarito: #d3eee0;
-    --Verde: #7cbd9b;
-    --RojoClarito: #ffe2e5;
-
-    --C-Naranja: #ffa203;
-    --C-Azul: #101584;
-    --C-Rojo: hsl(358, 82%, 52%);
-    --C-Morado: #874ccc;
-    --C-Verde: #42ae70;
-
-    --B-Radio1: 5px;
-    --B-Radio2: 32px;
-    --Font-Iconos: 1.1rem;
-    --Font-Links: 1.1rem;
-    --Font-Textos: 1.1rem;
-    --Font-SecTitulos: 1.8rem;
-    --Font-Titulos: 4.5rem;
-    --Font-Subtitulos: 3rem;
+/** HEADER CATEGORIAS  */
+.header-categorias{
+    width: 100%;
+    height: 50dvh;
+    max-height: 50dvh;
+    padding: 0rem 2rem;
+    margin-bottom: 1rem; 
 }
+    .background-header{
+        width: 100%;
+        height: 100%;
+        border-radius: var(--B-Radio2);
+        overflow: hidden;
+    }
+        .background-header h4{
+            font-size: var(--Font-Titulos);
+            color: var(--Blanco);
+            font-weight: 800;
+        }
+/** HEADER CATEGORIAS  */
+
 
 /** CATEGORIAS  SIMPLES */
 .categorias-container-simple{
@@ -80,10 +75,118 @@
 /** PLACES  */
 .places-container{
     height: auto;
-    min-height: 60vh;
-    padding: 0rem 2rem;
+    padding: 0rem 2rem 2rem 2rem;
     justify-content: center;
-    flex-flow: row wrap;
+    flex-flow: row wrap;   
+    gap: 2rem;
 }
 
+    .carousel-slide{
+        width: 17rem;
+        max-width: 19%;
+        height: auto;   
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+        .carousel-slide:hover .card-gradient-back{
+            opacity: 0;
+        }
+        .carousel-slide:hover .card-img-back{
+            scale: 1.1;
+        }
+        .card-carrusel-logo{
+            width: 100%;
+            height: 12%;
+            position: relative;
+
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-flow: row nowrap;
+            z-index: 4;
+        }
+            .card-logo{
+                height: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+                overflow: hidden;
+                aspect-ratio: 1/1;
+            }
+                .card-carrusel-text{
+                    padding: 0.2rem 0.5rem;
+                    border-radius: var(--B-Radio2);
+                    color: var(--Blanco);
+                }
+                .carousel-slide:hover .card-carrusel-text{
+                    background-color: var(--Blanco);
+                    color: var(--Negro);
+                }
+
+            .carousel-slide:hover .tags{
+                background-color: var(--Blanco);
+                color: var(--Negro);
+            }
+
 /** PLACES  */
+
+
+/*? CELULAR */
+@media (max-width: 800px){
+    /** HEADER CATEGORIAS  */
+        .header-categorias{
+            width: 100%;
+            height: 30dvh;
+            max-height: 30dvh;
+        }
+                .background-header h4{
+                    font-size: var(--Font-Subtitulos);
+                    text-align: center;
+                }
+    /** HEADER CATEGORIAS  */
+
+
+    /** CATEGORIAS  SIMPLES */
+        .categorias-container-simple{
+            height: auto;
+            min-height: 5rem;
+            max-height: 5rem;
+            padding: 0rem 2rem;
+            gap: 1rem;
+            position: relative;
+        }
+            .categoria-simple-container{
+                width: 20%;
+                height: auto;
+                padding: 0.5rem;
+                border-radius: 50%;
+                aspect-ratio: 1/1;
+                overflow: hidden;
+                justify-content: center;
+            }
+                .flecha-link{
+                    display: none !important;
+                }
+    /** CATEGCATEGORIAS  SIMPLES */
+
+
+
+
+
+    .filters-drags-container{
+        height: auto;
+        min-height: 25dvh;
+    }
+
+    /** PLACES  */
+    .places-container{
+        height: auto;
+        padding: 0rem 2rem;
+        justify-content: center;
+        flex-flow: row wrap;   
+        gap: 1rem;
+    }
+
+
+    /** PLACES  */
+}

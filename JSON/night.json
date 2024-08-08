@@ -1,0 +1,282 @@
+{
+    "places": [
+        {
+            "name": "Barezzito",
+            "direction": "Blvd. Campestre 1201, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/night/background/barezzito.jfif",
+            "logo": "./MEDIA/night/logo/barezzito.jpg",
+            "description": "Un bar de moda con una atmósfera vibrante y una excelente selección de cócteles. Barezzito es el lugar perfecto para comenzar tu noche.",
+            "costo": [
+                {
+                    "minimo": "300",
+                    "maximo": "600"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "música"
+                },
+                {
+                    "palabra": "cócteles"
+                },
+                {
+                    "palabra": "vibrante"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                }
+            ]
+        },
+        {
+            "name": "Cervecería Chapultepec",
+            "direction": "Blvd. Juan Alonso de Torres 1302, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/night/background/cerveceria_chapultepec.jpg",
+            "logo": "./MEDIA/night/logo/cerveceria_chapultepec.jfif",
+            "description": "Un bar que ofrece una gran variedad de cervezas artesanales y platillos deliciosos. Cervecería Chapultepec es el lugar ideal para relajarte y disfrutar de una buena cerveza.",
+            "costo": [
+                {
+                    "minimo": "200",
+                    "maximo": "400"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "Cervecería"
+                },
+                {
+                    "palabra": "cervezas"
+                },
+                {
+                    "palabra": "bar"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "op",
+                    "Hapertura": "12:00 P.M.",
+                    "Hcierre": "12:00 A.M."
+                }
+            ]
+        },
+        {
+            "name": "Bronson",
+            "direction": "Av. Panorama 505, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/night/background/bronson.jpg",
+            "logo": "./MEDIA/night/logo/bronson.jpg",
+            "description": "Un bar con temática retro que ofrece una experiencia única con música en vivo y cócteles creativos. Bronson es el lugar perfecto para una noche divertida.",
+            "costo": [
+                {
+                    "minimo": "300",
+                    "maximo": "600"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "temática"
+                },
+                {
+                    "palabra": "bar"
+                },
+                {
+                    "palabra": "cócteles"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                }
+            ]
+        },
+        {
+            "name": "La Lolita",
+            "direction": "Calle Madero 180, León, Guanajuato.",
+            "rating": 4,
+            "img": "./MEDIA/night/background/lolita.jpg",
+            "logo": "./MEDIA/night/logo/lolita.jpg",
+            "description": "Un bar con una atmósfera chic y moderna, ofreciendo cócteles creativos y una selección de platillos gourmet. Lolita es perfecto para una noche elegante.",
+            "costo": [
+                {
+                    "minimo": "500",
+                    "maximo": "1000"
+                }
+            ],
+            "words": [
+                {
+                    "palabra": "Antro"
+                },
+                {
+                    "palabra": "perreo"
+                },
+                {
+                    "palabra": "litros"
+                }
+            ],
+            "horario": [
+                {
+                    "dia": "Lunes",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Martes",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Miércoles",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Jueves",
+                    "estado": "op",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Viernes",
+                    "estado": "op",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Sábado",
+                    "estado": "op",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                },
+                {
+                    "dia": "Domingo",
+                    "estado": "clo",
+                    "Hapertura": "8:00 P.M.",
+                    "Hcierre": "2:00 A.M."
+                }
+            ]
+        }
+        
+
+    ]
+}
