@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    
+        <meta name="keywords" content=" ">
+        <meta name="description" content="Sitio de FINDE ">
+        <meta name="author" content="FINDE DEVELOP">
+    
+        <link rel="shortcut icon" type="image/x-icon" href="./RECURSOS/logo.png">
+
+        <title>Lugar | FINDE</title>
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="./CSS/general.css">
+        <link rel="stylesheet" href="./CSS/comun.css">
+
+        <link rel="stylesheet" href="./CSS/inicio.css">
+        <link rel="stylesheet" href="./CSS/inicioResp.css">
+
+        <link rel="stylesheet" href="./CSS/lugar.css">
+        
+        <!-- FONTS -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   
+    
+    </head>
+<body class="anim-apear trans">
+    
+<!-- NAV -->
+<nav class="formato_containers filter-container flex-row-patern">
+    <div class="flex-row-patern filter-cont ">
+        <div class="flex-row-patern filters ">
+            <figure class="logo-fiter-cont flex-row-patern">
+                <img  src="./RECURSOS/Finde - Logos (2).png" alt="Logo Finde">
+                <h1>FINDE</h1>
+            </figure>
+            <div class="search-cont flex-row-patern mobilNO">
+                <input type="text" name="search" id="busqueda" placeholder="Buscar..."> 
+                <i class='bx bx-search icon-ser'></i>
+            </div>
+        </div>
+        <div class="flex-row-patern acount-cont">
+            <button href="" class="mobilYES btn-acount btn-mobile flex-row-patern trans" id="open-nav"><i class='bx bx-menu'></i></button>
+            <button href="" class="mobilYES btn-acount btn-mobile flex-row-patern trans" id="close-nav"><i class='bx bx-x'></i></button>
+            <a href="index.html" class="btn-acount flex-row-patern trans mobilNO"><i class='bx bxs-home'></i></a>
+            <a href="index.html#categorias" class="btn-acount flex-row-patern trans mobilNO"><i class='bx bxs-category'></i></a>
+            <a href="nosotros.html" class="btn-acount flex-row-patern trans mobilNO"><i class='bx bxs-map'></i></a>
+            <a href="login.html" class="btn-acount flex-row-patern trans mobilNO" id="logout"><i class='bx bxs-exit'></i></a>
+            <a href="usuario.html" class="btn-acount flex-row-patern trans mobilNO"><i class='bx bxs-user'></i></a>
+        </div>
+    </div>
+</nav>
+
+<nav class="menumovil trans" id="menu-slide">
+    <div class="flex-row-patern acount-cont acount-cont2">
+        <a href="index.html" class="btn-acount btn-acount2 flex-row-patern trans "><i class='bx bxs-home'></i></a>
+        <a href="nosotros.html" class="btn-acount btn-acount2 flex-row-patern trans "><i class='bx bxs-map'></i></a>
+        <a href="login.html" class="btn-acount btn-acount2 flex-row-patern trans "><i class='bx bxs-exit'></i></a>
+        <a href="usuario.html" class="btn-acount btn-acount2 flex-row-patern trans "><i class='bx bxs-user'></i></a>
+    </div>
+</nav>
+<!-- /NAV  -->
+
+
+<!-- LUGAR  -->
+<section class="flex-row-patern general-places-container">
+    <aside class="flex-row-patern menu-fixed-place ">
+        <a href="categoria.html" class="btn-menu-place flex-row-patern btn-action trans " title="Regresar" id="back-place"><i class='bx bx-left-arrow-alt'></i></a>
+        <a href="" class="btn-menu-place flex-row-patern btn-action trans " title="Favoritos"><i class='bx bxs-star'></i></a>
+        <a href="" class="btn-menu-place flex-row-patern btn-action trans " title="Guardar"><i class='bx bxs-bookmark'></i></a>
+    </aside>
+    <section class="carrusel-places-container">
+        <img src="./RECURSOS/Restaurantes/rincon.jpg" alt="Foto del Lugar" class="" id="image-place">
+    </section>
+
+    <article class="info-places-container">
+        <div class="flex-row-patern principal-info-place place-margin-bottom">
+            <img src="./RECURSOS/Restaurantes/Rincon_Gaucho.jfif" alt="Logo del Lugar" class="" id="logo-place">
+            <div>
+                <h3 id="name-place">Rincón Gaucho</h3>
+                <p id="direcction-place">Blvd. Campestre 1621, León, Guanajuato.</p>
+            </div>
+        </div>
+       
+        
+        <p class="description-places-container place-margin-bottom" id="description-place">
+            Sumérgete en un viaje culinario al corazón de Argentina en Rincón Gaucho, donde los sabores auténticos de la parrilla argentina cobran vida. Disfruta de cortes de carne suculentos y vinos exquisitos en un ambiente rústico y acogedor que te hará sentir como en casa.
+        </p>
+
+        <div class="card-carrusel-tags place-margin-bottom" id="words-place">
+            
+        </div>
+
+        <table class="table-horarios mobilNO">
+            <tr class="table-title">
+              <th class="item-table-place Htitle trans">Lunes</th>
+              <th class="item-table-place Htitle trans ">Martes</th>
+              <th class="item-table-place Htitle trans ">Miércoles</th>
+              <th class="item-table-place Htitle trans ">Jueves</th>
+              <th class="item-table-place Htitle trans ">Viernes</th>
+              <th class="item-table-place Htitle trans ">Sábado</th>
+              <th class="item-table-place Htitle trans ">Domingo</th>
+            </tr>
+          
+            <tr>
+              <td class="item-table-place Hapertura trans ">10:00 A.M.</td>
+              <td class="item-table-place Hapertura trans">8:00 A.M.</td>
+              <td class="item-table-place Hapertura trans">7:00 A.M.</td>
+              <td class="item-table-place Hapertura trans">6:00 A.M.</td>
+              <td class="item-table-place Hapertura trans">10:00 A.M.</td>
+              <td class="item-table-place Hapertura trans">11:00 A.M.</td>
+              <td class="item-table-place Hapertura trans">5:00 A.M.</td>
+            </tr>
+
+            <tr>
+                <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+                <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+                <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+                <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+                <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+                <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+                <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+            </tr>
+      </table>
+
+      <table class="table-horarios">
+        <tr>
+            <th class="item-table-place Htitle trans">Lunes</th>
+            <td class="item-table-place Hapertura trans ">10:00 A.M.</td>
+            <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+        </tr>
+        <tr>
+            <th class="item-table-place Htitle trans">Martes</th>
+            <td class="item-table-place Hapertura trans ">10:00 A.M.</td>
+            <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+        </tr>
+        <tr>
+            <th class="item-table-place Htitle trans">Miércoles</th>
+            <td class="item-table-place Hapertura trans ">10:00 A.M.</td>
+            <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+        </tr>
+        <tr>
+            <th class="item-table-place Htitle trans">Jueves</th>
+            <td class="item-table-place Hapertura trans ">10:00 A.M.</td>
+            <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+        </tr>
+        <tr>
+            <th class="item-table-place Htitle trans">Viernes</th>
+            <td class="item-table-place Hapertura trans ">10:00 A.M.</td>
+            <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+        </tr>
+        <tr>
+            <th class="item-table-place Htitle trans">Sábado</th>
+            <td class="item-table-place Hapertura trans ">10:00 A.M.</td>
+            <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+        </tr>
+        <tr>
+            <th class="item-table-place Htitle trans">Domingo</th>
+            <td class="item-table-place Hapertura trans ">10:00 A.M.</td>
+            <td class="item-table-place Hcierre trans">10:00 P.M.</td>
+        </tr>
+        
+  </table>
+        <!-- 
+            <div class="rating">
+                <input value="5" name="rate" id="star5" type="radio">
+                <label title="5" for="star5"></label>
+                <input value="4" name="rate" id="star4" type="radio">
+                <label title="4" for="star4"></label>
+                <input value="3" name="rate" id="star3" type="radio" checked="">
+                <label title="3" for="star3"></label>
+                <input value="2" name="rate" id="star2" type="radio">
+                <label title="2" for="star2"></label>
+                <input value="1" name="rate" id="star1" type="radio">
+                <label title="1" for="star1"></label>
+            </div>
+        -->
+       
+    </article>
+</section>
+
+
+<!-- /LUGAR  -->
+
+
+<!-- TOP BUTTON -->
+<div class="btn-top-static ">
+    <button class="btn-simple-gen btn-simple-menu btn-simple-top btn-action trans" id="toTopBtn"><i class='bx bx-chevron-up'></i></button>
+</div>
+<!-- /TOP BUTTON -->
+
+<!-- FOOTER -->
+<footer class="footer anim-fade_in">
+<div class="flex-row-patern footer-elemet footer-top">
+    <a href="nosotros.html" class="foo-text foo-link trans">Nosotros</a>
+    <a href="faqs.html" class="foo-text foo-link trans">FAQ's</a>
+    <a href="nosotros.html" class="foo-text foo-link trans">Aviso de Privacidad</a>
+</div>
+<div class="flex-row-patern footer-elemet footer-middle">
+    <a href="" class="foo-link btn-action foo-btn trans"><i class='bx bxl-facebook-circle'></i></a>
+    <a href="" class="foo-link btn-action foo-btn trans"><i class='bx bxl-instagram-alt'></i></a>
+    <a href="" class="foo-link btn-action foo-btn trans"><i class='bx bxl-youtube'></i></a>
+    <a href="" class="foo-link btn-action foo-btn trans"><i class='bx bxl-tiktok'></i></a>
+    <a href="" class="foo-link btn-action foo-btn trans"><i class='bx bxl-twitter'></i></a>
+</div>
+<div class="flex-row-patern footer-elemet footer-bottom">
+    <p>© 2024 FINDE</p>
+</div>
+</footer>
+<!-- /FOOTER -->
+ 
+    <script src="./JS/topweb.js"></script>
+    <script src="./JS/menu-slide.js"></script>
+    <script src="./JS/lugar.js"></script>
+    <script src="./JS/salir.js"></script>
+</body>
+</html>
