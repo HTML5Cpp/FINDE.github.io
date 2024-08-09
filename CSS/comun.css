@@ -46,6 +46,7 @@
                     height: 100%;
                     overflow: hidden;
                     gap: 0;
+                    text-decoration: none;
                 }
                     .logo-fiter-cont img{
                         width: auto;
@@ -484,13 +485,6 @@
 }
 /*? CELULAR */
 
-@media (max-width: 1400px) and (min-width: 1300px){
-    .filter-container{
-        height: 11dvh;
-        max-height: 11dvh;
-    }
-    
-}
 
 .ocultar-nav{
     display: none;
